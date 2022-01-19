@@ -46,7 +46,6 @@ function btnC() {
       "BTS X Coldplay | My Universe",
       "BTS | Savage Love Remix",
       "BTS | Dynamite",
-      "이무진 | 신호등",
     ];
     prevSong();
     btn2.value = "Now - POP Mode";
