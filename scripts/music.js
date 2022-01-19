@@ -49,7 +49,7 @@ function btnC() {
     ];
     prevSong();
     btn2.value = "Now - POP Mode";
-    img2.src = "img/back.png";
+    img2.src = "../img/back.png";
   } else if (counts === 1) {
     counts--;
     songs = [
@@ -65,7 +65,7 @@ function btnC() {
       "영탁 | 찐이야",
     ];
     btn2.value = "Now - AZ Mode";
-    img2.src = "img/old.png";
+    img2.src = "../img/old.png";
     prevSong();
   }
   console.log(counts);
@@ -81,7 +81,7 @@ loadSong(songs[songIndex]);
 // Update song details
 function loadSong(song) {
   title.innerText = song;
-  audio.src = `music/${song}.mp3`;
+  audio.src = `../music/${song}.mp3`;
 }
 
 // Play song
