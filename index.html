@@ -45,6 +45,20 @@
         
           <div class="imgdiv">
               <h3 id="clock">00:00:00</h3>
+               <form class="hidden" id="login-form">
+                <input
+                  required
+                  maxlength="15"
+                  type="text"
+                  placeholder="What is your name?"
+                />
+                <input type="submit" value="Log In" />
+              </form>
+              <h3 class="hidden" id="greeting"></h3>
+              <div id="weather">
+                <span></span>
+                <span></span>
+              </div>
                 <div class="search-container align-center">
                     <label for="search-trigger">
                         <div class="search-toggle"></div>
@@ -140,6 +154,8 @@
   <script src="./scripts/calendar.js"></script>
   <script src="./scripts/anclock.js"></script>
   <script src="./scripts/music.js"></script>
+        <script src="./login.js"></script>
+  <script src="./scripts/weather.js"></script>
 
 
 
