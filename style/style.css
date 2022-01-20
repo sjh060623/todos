@@ -2,6 +2,9 @@
   margin-top: 100px;
 }
 
+.hidden {
+  display: nono;
+
 .container {
   display: grid;
   width: 100%;
